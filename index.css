@@ -1,5 +1,3 @@
-
-
 body,
 html {
     margin: 0;
@@ -19,7 +17,7 @@ html {
     margin-right: 20px;
     cursor: pointer;
     font-size: 24px;
- 
+
 }
 
 .logo {
@@ -27,13 +25,13 @@ html {
     font-size: 24px;
     color: #f1732f;
     font-weight: 900;
-   margin-right: 2%;
+    margin-right: 2%;
 }
 
 .logo i {
     color: #ff6600;
     font-style: italic;
-   
+
 }
 
 .search-container {
@@ -47,7 +45,7 @@ html {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px 0 0 4px;
-   
+
 }
 
 .search-button {
@@ -63,7 +61,7 @@ html {
 .login-button {
     background-color: #ff6600;
     color: white;
-    padding: 8px 16px;
+    padding: 8px 10px;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -82,7 +80,7 @@ html {
 .stats-container {
     background-color: #003366;
     color: white;
-    padding: 20px ;
+    padding: 20px;
 
     text-align: center;
 }
@@ -96,7 +94,7 @@ html {
     display: flex;
     justify-content: center;
     gap: 50px;
-   
+
 }
 
 .stat-item .number {
@@ -112,7 +110,7 @@ html {
 @media (max-width: 768px) {
     .stats {
         flex-direction: column;
-       
+
     }
 }
 
@@ -121,7 +119,7 @@ html {
     width: 100%;
     height: auto;
     display: block;
-  
+
 }
 
 .content-section {
@@ -136,7 +134,7 @@ html {
     font-size: 14px;
 
     margin-bottom: 5px;
-   
+
 }
 
 .headline {
@@ -152,7 +150,7 @@ html {
     color: #555;
     font-family: Arial, sans-serif;
     font-size: 16px;
- 
+
 }
 
 /* food news */
@@ -162,7 +160,7 @@ html {
     padding: 0;
     font-family: 'Arial', sans-serif;
 
-   
+
 }
 
 .news-container {
@@ -184,7 +182,7 @@ html {
     margin-top: 20px;
     margin-right: 70%;
     display: flex;
- 
+
 }
 
 .news-item img {
@@ -192,7 +190,7 @@ html {
     max-width: 300px;
     height: auto;
     margin-bottom: 10px;
- 
+
 }
 
 .news-item h2 {
@@ -220,13 +218,13 @@ html {
 
 /* Treding */
 
- .trending-section {
+.trending-section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-   
-    
+
+
 }
 
 .section-title {
@@ -285,34 +283,34 @@ html {
 }
 
 .category {
-    flex: 1; 
+    flex: 1;
     margin: 10px;
-    text-align: center; 
+    text-align: center;
 }
 
 .category img {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
     max-width: 600px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .category h2 {
-    margin-top: 10px; 
-    font-size: 24px; 
-    color: #333; 
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
 }
 
 @media (max-width: 768px) {
     .food-categories {
-        flex-direction: column; 
+        flex-direction: column;
     }
 }
- 
+
 /* home cook */
 
 .home-cook-container {
-    background-color: white; 
+    background-color: white;
     text-align: center;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -320,14 +318,15 @@ html {
 }
 
 .home-cook-container h1 {
-    color: #FFA500; 
+    color: #FFA500;
     font-size: 50px;
 }
 
 .home-cook-container p {
     font-size: 15px;
-    color: #333; 
+    color: #333;
 }
+
 .user-details {
     color: #666;
     margin-bottom: 20px;
@@ -341,33 +340,35 @@ html {
 }
 
 .profile-image {
-    width: 150px; 
+    width: 150px;
     height: auto;
 }
 
 .Waffles {
 
     padding: 10px;
-    border-radius: 5px; 
+    border-radius: 5px;
     margin-top: 20px;
 }
 
 .Waffles h3 {
-    color: #D2691E; 
+    color: #D2691E;
     font-size: 24px;
 }
 
 .Waffles p {
     font-size: 16px;
     color: #333;
-    
-}
-.our-people h3{
-color: #f6e749;
-font-size: 30px;
 
 }
-.our-people p{
+
+.our-people h3 {
+    color: #f6e749;
+    font-size: 30px;
+
+}
+
+.our-people p {
     line-height: 1.5;
 }
 
@@ -380,17 +381,18 @@ font-size: 30px;
 
 .leadership-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
 }
 
-.editor{
-text-align: left;
-color: #D2691E;
-font-size: 2.5;
+.editor {
+    text-align: left;
+    color: #D2691E;
+    font-size: 2.5;
 
 }
+
 .profile {
     position: relative;
     width: 100px;
@@ -402,18 +404,21 @@ font-size: 2.5;
 .profile-pic {
     width: 100%;
     height: auto;
-    border-radius: 50%; /* Circle shape */
-    border: 5px solid #ccc; /* Generic gray border */
+    border-radius: 50%;
+    /* Circle shape */
+    border: 5px solid #ccc;
+    /* Generic gray border */
     box-sizing: border-box;
- margin-right: 20%;
-    
+    margin-right: 20%;
+
 }
 
 
 
 @media (max-width: 768px) {
     .leadership-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns for smaller screens */
     }
 }
 
@@ -437,17 +442,18 @@ font-size: 2.5;
     font-size: 24px;
     color: #f1732f;
     font-weight: 900;
- margin-left: 35%;
+    margin-left: 35%;
 }
+
 .newsletter-form {
     border: 6px solid rgb(255, 42, 0);
     padding: 5px;
-   margin-top: 10%;
-  margin-right: 3%;
-  width: 90%;
-  height: 50px;
-  align-items: center;
-  text-align: center;
+    margin-top: 10%;
+    margin-right: 3%;
+    width: 90%;
+    height: 50px;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -461,47 +467,64 @@ font-size: 2.5;
 .social-icons a {
     margin: 0 5px;
     color: #333;
-    font-size: 24px; 
+    font-size: 24px;
     border: #003366;
 }
 
 .footer-links {
     display: flex;
     justify-content: space-around;
+    text-align: left;
 }
-.link1{
+
+.link1 {
     margin-left: 100%;
 }
-.link2{
+
+.link2 {
     margin-left: -100%;
 
- margin-top: -150%;
-  
-}
-.link3{
- 
+    margin-top: -150%;
 
 }
-.link4{
- margin-left: 50%;
+
+.link3 {
+    margin-left: -0%;
+    display: grid;
+    margin-top: 20px;
+    line-height: 2.5;
 }
-.link-column h3, .link-column a {
+
+.link4 {
+    margin-left: 70%;
+    margin-top: -140px;
+    line-height: 2.5;
+
+}
+
+.link-column h3,
+.link-column a {
     margin-bottom: 5px;
+
 }
 
 .link-column a {
     color: #666;
     text-decoration: none;
-    
+    text-align: left;
+
 }
 
 @media (max-width: 768px) {
-    .footer-links, .footer-social {
+
+    .footer-links,
+    .footer-social {
         flex-direction: column;
         align-items: center;
     }
 
-    .newsletter-form, .social-icons {
+    .newsletter-form,
+    .social-icons {
         flex-direction: column;
     }
 
@@ -509,5 +532,3 @@ font-size: 2.5;
         margin-bottom: 10px;
     }
 }
-
-
