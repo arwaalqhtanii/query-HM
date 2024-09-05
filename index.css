@@ -373,7 +373,7 @@ html {
     line-height: 1.5;
 }
 
-
+/* 
 .editorial-leadership {
     text-align: center;
     padding: 20px;
@@ -407,11 +407,52 @@ html {
     height: auto;
     border-radius: 50%;
     /* Circle shape */
-    border: 5px solid #ccc;
     /* Generic gray border */
-    box-sizing: border-box;
-    margin-right: 20%;
+    /* box-sizing: border-box;
+    margin-right: 20%; */
 
+
+
+.team-section {
+    padding: 4vh 2vw;
+    text-align: left;
+}
+
+.team-category {
+    margin-bottom: 5vh;
+}
+
+.team-title {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #f15a24;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    color: #f15a24;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3vw;
+    margin-top: 2vh;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.profile-image {
+    width: 20vw;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid transparent; 
 }
 
 
